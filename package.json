@@ -3,22 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "caniuse-lite": "^1.0.30001312",
-    "js-tokens": "^4.0.0",
-    "loose-envify": "^1.4.0",
-    "nanoid": "^3.3.1",
-    "next": "^12.1.0",
-    "object-assign": "^4.1.1",
-    "picocolors": "^1.0.0",
-    "postcss": "^8.4.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "scheduler": "^0.20.2",
-    "source-map-js": "^1.0.2",
-    "styled-jsx": "^5.0.0",
-    "use-subscription": "^1.5.1"
-  },
   "scripts": {
     "dev": "next dev"
   },
@@ -32,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/vifas/site-unico/issues"
   },
-  "homepage": "https://github.com/vifas/site-unico#readme"
+  "homepage": "https://github.com/vifas/site-unico#readme",
+  "dependencies": {
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
