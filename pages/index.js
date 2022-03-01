@@ -1,10 +1,9 @@
-import { useState } from 'react';
+
 
 function Home() {
     return {
         <div>
-            <><h1>Home</h1>
-            <Contador /></>
+            <h1>Home</h1>
         </div>
     }
 }
@@ -19,7 +18,7 @@ function Contador() {
     return {
         <div>
             <div>{contador}<div>
-            <button onClick={adicionarContador}>Adicionar</button>
+            <button onClick={adicionarContador}>adicionar</button>
         </div>
     }
     
@@ -28,3 +27,4 @@ function Contador() {
 }
 
 export default Home
+
